@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Finial top circle -->
+    <path
+        android:fillColor="#C5AD82"
+        android:pathData="M54,28 A4.5,4.5 0 1,0 54,37 A4.5,4.5 0 1,0 54,28" />
+    <path
+        android:fillColor="#A88B5C"
+        android:pathData="M51.5,36.5 h5 v4 h-5 z" />
+    <!-- Cloche Dome -->
+    <path
+        android:fillColor="#C5AD82"
+        android:pathData="M54,40.5 C39,40.5 28.5,51 26.5,65.5 L81.5,65.5 C79.5,51 69,40.5 54,40.5 Z" />
+    <!-- Serving Platter -->
+    <path
+        android:fillColor="#E5DDD1"
+        android:pathData="M23,67.5 h62 v3.5 c0,1.8 -1.4,3.2 -3.2,3.2 H26.2 C24.4,74.2 23,72.8 23,71 Z" />
+    <!-- Platter Rim Base -->
+    <path
+        android:fillColor="#A88B5C"
+        android:pathData="M33,74.5 h42 v2.5 h-42 z" />
+    <!-- Refined Star Crest -->
+    <path
+        android:fillColor="#F7F3EC"
+        android:pathData="M54,47 L55.5,51.5 L60,53 L55.5,54.5 L54,59 L52.5,54.5 L48,53 L52.5,51.5 Z" />
+</vector>

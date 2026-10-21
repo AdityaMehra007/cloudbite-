@@ -1,0 +1,1827 @@
+# CLOUDBITE BLACK LABEL
+
+# THE ULTIMATE AI-POWERED LUXURY CLOUD KITCHEN PLATFORM
+
+## Master Build Prompt for Google AI Studio
+
+VERSION: ULTIMATE PRODUCT BLUEPRINT
+PRODUCT TYPE: Luxury Food Commerce + Cloud Kitchen Operating System
+INITIAL MARKET: Bengaluru, India
+PLATFORM: Responsive Web Application, Mobile-First PWA-Ready
+CURRENCY: Indian Rupee (INR)
+BRAND POSITIONING: Premium, modern, editorial, luxurious, technically sophisticated
+PRIMARY MISSION: Build the actual application, not a static mockup.
+
+---
+
+# 0. YOUR MISSION
+
+You are the combined intelligence of an exceptional product organization.
+
+Act simultaneously as:
+
+* A visionary technology founder.
+* A luxury brand creative director.
+* A principal product designer.
+* An award-winning food-commerce UX designer.
+* A principal frontend engineer.
+* A senior full-stack engineer.
+* A software architect.
+* A cloud kitchen operator.
+* A restaurant financial controller.
+* A data and business intelligence engineer.
+* An AI automation architect.
+* A cybersecurity engineer.
+* A quality assurance engineer.
+* A growth marketing strategist.
+* A product accessibility specialist.
+* A deployment and reliability engineer.
+
+Your job is to build CLOUDBITE BLACK LABEL, an exceptionally beautiful, functional, commercially viable cloud kitchen platform.
+
+This is not a request to generate ideas, write a tutorial, produce a wireframe, or merely design a landing page.
+
+**Inspect the actual development environment, implement the application in code, run the available preview, test the critical workflows, and improve the result.**
+
+Make reasonable implementation decisions independently. Inspect existing code before making structural changes. Preserve working functionality. Document assumptions and genuine technical blockers.
+
+Do not pretend that unavailable services, credentials, integrations, or tests have been completed.
+
+The objective is to deliver an attractive, coherent, working product that can be demonstrated immediately and progressively developed into a real business.
+
+# 1. PRODUCT VISION
+
+CLOUDBITE BLACK LABEL combines the elegance of premium hospitality with the practical capabilities of a cloud kitchen operating system.
+
+Its customer-facing experience should feel like an elite culinary brand.
+
+Its operational experience should feel like the private control center of a sophisticated hospitality group.
+
+Its technical foundation should support real orders, multiple kitchen brands, ingredient costing, inventory, payments, delivery workflows, staff permissions, and measurable profitability.
+
+The platform must solve two complementary problems.
+
+**For customers:** Discover exceptional food, enjoy a beautiful shopping experience, order effortlessly, and understand what is happening with their order.
+
+**For operators:** Manage orders, ingredients, preparation, employees, finances, menu performance, and expansion without depending on disconnected spreadsheets and manual processes.
+
+The founding principle:
+
+**Luxury in the experience. Precision in the operations. Intelligence in the decisions.**
+
+## Long-term ambition
+
+Design the architecture so that the business can evolve from one independent kitchen into:
+
+* A premium direct-to-consumer food brand.
+* Multiple virtual restaurant brands.
+* A network of kitchens across Bengaluru.
+* A multi-location food business.
+* A software platform for independent kitchen operators.
+* A potential marketplace connecting customers with participating kitchens.
+
+Do not require a marketplace network to run the initial product. A single kitchen must be able to use the essential features independently.
+
+Do not attempt to finish every future capability before delivering the core application.
+
+---
+
+# 2. NON-NEGOTIABLE PRIORITIES
+
+Apply the following priorities throughout development.
+
+1. Exceptional visual design and brand consistency.
+2. A complete, intuitive customer ordering experience.
+3. Working cart, pricing, checkout, and order tracking.
+4. A reliable kitchen display and order-management workflow.
+5. A useful owner dashboard.
+6. Sound data modeling and financial calculations.
+7. Security, permission enforcement, and tenant isolation.
+8. Responsive mobile and desktop layouts.
+9. Maintainable code and documented architecture.
+10. Expansion into AI, automation, and multi-location intelligence.
+
+Never sacrifice basic functionality to create superficial visual polish.
+
+Never sacrifice visual quality by treating the application as a generic CRUD dashboard.
+
+Never sacrifice security to shorten implementation time.
+
+When time or technical capacity is limited, complete the highest-value end-to-end workflows before adding lower-priority features.
+
+---
+
+# 3. THE VISUAL IDENTITY: LUXURY WITHOUT COMPROMISE
+
+This application must look extraordinarily polished.
+
+The design should feel as though a world-class hospitality brand, a leading editorial design studio, and an elite digital product agency collaborated on the same experience.
+
+Use original art direction inspired by luxury hotels, high-end dining, contemporary culinary magazines, specialist cafés, and refined lifestyle commerce.
+
+Do not imitate another company's complete interface, branding, logo, or trade dress.
+
+## 3.1 The brand
+
+Brand name: CLOUDBITE
+
+Edition: BLACK LABEL
+
+Primary tagline:
+
+"Exceptional food. Extraordinary experience."
+
+Secondary editorial line:
+
+"A finer way to fall in love with food."
+
+Alternative campaign line:
+
+"Every craving deserves a little more."
+
+Brand personality:
+
+* Quiet confidence.
+* Modern sophistication.
+* Sensory appeal.
+* Exceptional attention to detail.
+* Warm hospitality.
+* Contemporary Indian relevance.
+* Premium quality without unnecessary snobbery.
+
+The brand should communicate quality without aggressively shouting about being luxurious.
+
+## 3.2 Color system
+
+Use a disciplined, consistent palette.
+
+* Porcelain ivory: #F7F3EC
+* Warm cream: #EEE6D9
+* Deep espresso: #251D19
+* Obsidian charcoal: #171614
+* Muted champagne: #C5AD82
+* Antique brass: #A88B5C
+* Refined terracotta: #B95D45
+* Sage: #78816B
+* Paper white: #FFFFFF
+* Warm border: #E5DDD1
+* Muted secondary text: #777067
+
+Primary backgrounds should generally use ivory, cream, white, or restrained charcoal surfaces.
+
+Use espresso for text, terracotta for selected primary actions, champagne for limited premium details, and sage for appropriate positive or freshness-related states.
+
+Build a semantic design system for:
+
+* Primary and secondary surfaces.
+* Primary, secondary, and tertiary text.
+* Interactive states.
+* Hover and focus states.
+* Borders and separators.
+* Success, warning, error, and information.
+* Disabled and unavailable controls.
+* Chart series and data status indicators.
+
+Do not spread accent colors indiscriminately throughout the interface.
+
+Do not use shiny gold gradients or black-and-gold decoration as substitutes for good design.
+
+## 3.3 Typography
+
+Use an editorial serif and a contemporary sans-serif.
+
+Potential display fonts:
+
+* Cormorant Garamond.
+* DM Serif Display.
+* Playfair Display.
+
+Potential interface fonts:
+
+* Manrope.
+* Inter.
+
+Choose compatible fonts supported by the environment.
+
+Use:
+
+* Expressive display headlines.
+* Elegant section titles.
+* Readable product names.
+* Precise pricing typography.
+* Calm descriptive text.
+* Carefully controlled letter spacing.
+* Generous but practical line height.
+
+Avoid using uppercase text for everything.
+
+Avoid giant text that harms navigation or readability.
+
+Define a consistent typographic scale and reusable styles.
+
+## 3.4 Layout language
+
+Create a design system with:
+
+* Generous but deliberate whitespace.
+* Clean grid alignment.
+* Editorial asymmetry where appropriate.
+* Beautifully composed image panels.
+* Warm paper-inspired backgrounds.
+* Refined dividers.
+* Carefully controlled corner radii.
+* Light, natural-looking shadows.
+* Clear visual hierarchy.
+* Distinct section rhythms.
+* Restrained animations.
+* Responsive spacing tokens.
+
+Not every element should live inside a card.
+
+Use open layouts for storytelling, sophisticated grids for product discovery, and compact structures for operational work.
+
+The final result must feel designed, not generated from a repetitive template.
+
+## 3.5 Micro-interactions
+
+Implement refined, fast interactions:
+
+* Gentle image transitions.
+* Tasteful hover feedback.
+* Smooth cart drawer animation.
+* Animated cart count changes.
+* Clear focus states.
+* Beautiful loading skeletons.
+* Small confirmation toasts.
+* Subtle selection feedback.
+* Polished empty states.
+* Reduced-motion support.
+
+Do not create unnecessary animation or effects that slow down checkout.
+
+---
+
+# 4. ART DIRECTION AND FOOD PHOTOGRAPHY
+
+Photography is one of the most important determinants of visual quality.
+
+Every photograph must support the specific product or brand it represents.
+
+The visual direction should include:
+
+* Natural directional light.
+* Realistic food textures.
+* Rich but controlled colors.
+* Beautifully styled dishes.
+* Premium ceramics.
+* Tactile linen.
+* Warm stone or wood surfaces.
+* Deliberate composition.
+* Fine shadow detail.
+* Sophisticated color grading.
+* Both close-up and environmental food photography.
+
+Use high-resolution, suitable food assets where available. Generate original imagery when the environment supports image generation.
+
+Do not assume that an image-generation model is available as a callable runtime API unless it is actually configured.
+
+Do not use the same photograph for unrelated dishes.
+
+Do not distort images or obscure the food behind excessive text.
+
+Provide appropriate responsive crops, loading behavior, descriptive alternative text, and graceful fallbacks.
+
+Avoid broken image links in the completed preview.
+
+## Example image direction
+
+### Gourmet pasta
+
+An elegant ceramic plate of wild mushroom pasta, delicate herbs, rich natural textures, soft afternoon light, refined restaurant photography, warm cream background, editorial composition.
+
+### Indian biryani
+
+A beautifully presented biryani with distinct rice grains, realistic spices, fresh herbs, sophisticated ceramics, natural light, appetizing close-up photography, premium contemporary Indian dining aesthetic.
+
+### Healthy bowl
+
+A beautifully arranged bowl with fresh greens, roasted vegetables, grains, and carefully placed ingredients, warm stone surface, balanced composition, restrained palette.
+
+### Burger
+
+A carefully styled gourmet burger with realistic textures, golden toasted bun, fresh ingredients, controlled shadows, dark warm background, premium food campaign photography.
+
+### Dessert
+
+A dark chocolate dessert with elegant plating, restrained garnish, sophisticated lighting, close-up detail, editorial restaurant photography.
+
+All images must match the products represented in the interface.
+
+---
+
+# 5. APPLICATION ARCHITECTURE
+
+Build five connected product experiences.
+
+## A. Customer storefront
+
+Customers discover food, explore brands, configure dishes, manage carts, check out, track orders, and reorder.
+
+## B. Kitchen Display System
+
+Kitchen employees receive orders, accept them, prepare meals, manage capacity, and complete operational handoffs.
+
+## C. Business owner console
+
+Owners manage menus, recipes, inventory, pricing, staff, sales, costs, promotions, and locations.
+
+## D. Delivery operations
+
+Authorized staff assign deliveries, update fulfillment, record exceptions, and monitor delivery performance.
+
+## E. Platform administration
+
+The platform operator manages registered businesses, configuration, subscriptions when enabled, and platform-level support.
+
+Use clearly separated permissions and route access.
+
+Customers must never gain access to kitchen administration.
+
+Kitchen employees must not gain unrestricted access to financial controls or platform-wide administration.
+
+Each business must be isolated from unrelated businesses.
+
+---
+
+# 6. HOMEPAGE: DESIGN THE SIGNATURE EXPERIENCE
+
+The homepage is the flagship customer experience.
+
+It must be beautiful, immediately understandable, and commercially useful.
+
+## 6.1 Announcement strip
+
+Copy:
+
+"Thoughtfully prepared. Beautifully delivered."
+
+Keep it discreet and refined.
+
+## 6.2 Navigation
+
+Create a premium navigation bar with:
+
+Left:
+
+* Original CLOUDBITE wordmark.
+* Minimal brand emblem.
+
+Center:
+
+* Discover.
+* Our Kitchens.
+* The Menu.
+* Journal.
+
+Right:
+
+* Delivery location.
+* Search.
+* Account.
+* Cart with live item count.
+
+Use precise alignment and comfortable spacing.
+
+Use an unobtrusive sticky header when appropriate.
+
+On small screens, create a compact responsive navigation with an accessible menu and an obvious cart action.
+
+All navigation must work.
+
+## 6.3 Hero
+
+Headline:
+
+"A finer way to fall in love with food."
+
+Supporting copy:
+
+"Discover remarkable flavours, thoughtful preparation, and the kitchens bringing something special to your table."
+
+Primary CTA: "Explore the collection"
+
+Secondary CTA: "Discover our kitchens"
+
+Create a cinematic, editorial hero with beautiful food photography and balanced typography.
+
+The desktop version can use an asymmetrical composition with a generous text area and a large image.
+
+The mobile version must be deliberately redesigned, with strong hierarchy and an appropriate image crop.
+
+Do not clutter the hero with meaningless floating cards, fabricated reviews, or unnecessary offers.
+
+## 6.4 Category discovery
+
+Headline:
+
+"An appetite for the exceptional."
+
+Categories:
+
+* Indian Heritage.
+* Artisan Bowls.
+* Fire & Grill.
+* Crafted Pasta.
+* Fresh & Nourishing.
+* South Indian.
+* Sweet Indulgences.
+* Coffee & Beverages.
+
+Each category must have suitable visual representation.
+
+Category selection must filter the actual catalog.
+
+## 6.5 Signature collection
+
+Headline:
+
+"The signature collection."
+
+Supporting copy:
+
+"Thoughtful ingredients. Memorable flavours. Made for moments worth savouring."
+
+Display refined product cards with:
+
+* Appropriate high-quality photographs.
+* Product title.
+* Concise description.
+* INR price.
+* Dietary labels backed by product data.
+* Configured portion information.
+* Optional promotion label.
+* Favourite action.
+* Add-to-cart interaction.
+
+Create an elegant grid with enough whitespace for each product to be appreciated.
+
+## 6.6 Culinary brands
+
+Headline:
+
+"Different kitchens. Extraordinary character."
+
+Add fictional demonstration brands:
+
+* Bowl Theory: contemporary bowls and fresh meals.
+* Bengaluru Tiffin Co.: modern South Indian comfort food.
+* Firegrill Kitchen: grills, burgers, and bold flavours.
+
+Create distinctive visual identities within the parent brand.
+
+Use sample data honestly.
+
+## 6.7 Brand storytelling
+
+Headline:
+
+"Good food is never just food."
+
+Supporting copy:
+
+"It's the care behind every ingredient, the craft behind every recipe, and the little details that turn an ordinary meal into something worth remembering."
+
+Pair the text with strong food or kitchen imagery.
+
+## 6.8 Seasonal feature
+
+Headline:
+
+"An occasion, even on an ordinary Tuesday."
+
+Provide a configurable campaign banner, image, text, and functional CTA.
+
+Do not fabricate urgency or active discount offers.
+
+## 6.9 Footer
+
+Include:
+
+* Brand description.
+* Menu discovery.
+* Kitchen partners.
+* Customer support.
+* About.
+* Contact.
+* Privacy.
+* Terms.
+* Social links when configured.
+
+Keep it understated.
+
+---
+
+# 7. MENU AND CATALOG SYSTEM
+
+Create a database-driven catalog.
+
+Each product should support:
+
+* Stable ID.
+* Name.
+* Slug.
+* Description.
+* Product images.
+* Category.
+* Brand.
+* Available locations.
+* Selling price.
+* Optional compare-at price.
+* Currency.
+* Portion size.
+* Dietary classification.
+* Ingredient information.
+* Allergen information.
+* Nutrition information when supplied.
+* Preparation time.
+* Availability.
+* Variants.
+* Modifier groups.
+* Add-ons.
+* Stock rules.
+* Featured status.
+* Menu schedule.
+* Creation and update timestamps.
+
+Support configurable options including:
+
+* Portion size.
+* Spice level.
+* Bread choice.
+* Add-on toppings.
+* Sauces.
+* Sides.
+* Drink options.
+
+Validate required selections, quantity limits, stock availability, and product availability on the server.
+
+Never trust client-supplied prices for real transactions.
+
+Past order items must preserve the prices and descriptions necessary to audit historical purchases.
+
+---
+
+# 8. SEARCH AND DISCOVERY
+
+Implement functional search, filters, and sorting.
+
+Customers should be able to search by:
+
+* Dish.
+* Ingredient when available.
+* Cuisine.
+* Category.
+* Kitchen brand.
+
+Add filters for:
+
+* Vegetarian.
+* Non-vegetarian.
+* Vegan where accurately configured.
+* Price range.
+* Category.
+* Availability.
+
+Support sorting by:
+
+* Relevance.
+* Price ascending.
+* Price descending.
+* Configured popularity score.
+
+Only describe a product as popular or recommended when there is a defined basis or when it is explicitly presented as a merchandising choice.
+
+Include a helpful no-results state.
+
+Add selectable demonstration locations such as BTM Layout, Koramangala, HSR Layout, Indiranagar, and Jayanagar.
+
+Do not imply that these locations are genuinely serviceable until the delivery-zone rules have been configured.
+
+---
+
+# 9. PRODUCT DETAILS, CART, AND CHECKOUT
+
+## Product detail
+
+Create a luxurious product detail page with a prominent image, readable information, configurable modifiers, quantity selection, price, dietary information, and an obvious add-to-cart action.
+
+## Cart
+
+Implement:
+
+* Add and remove items.
+* Change quantity.
+* Edit item modifiers.
+* Display item-level instructions.
+* Item subtotal.
+* Applicable discounts.
+* Tax calculation.
+* Delivery fees.
+* Other configured fees.
+* Final total.
+
+Revalidate product availability and price when checking out.
+
+Use a polished cart drawer, plus a full cart page when appropriate.
+
+Provide an inviting empty state.
+
+## Checkout
+
+Support:
+
+* Customer information.
+* Contact details.
+* Saved addresses.
+* Address instructions.
+* Delivery instructions.
+* ASAP delivery.
+* Scheduled ordering if implemented.
+* Coupon validation.
+* Applicable payment method.
+* Clear fee and tax breakdown.
+* Order review.
+* Order confirmation.
+
+Make checkout mobile-friendly.
+
+Use client-side validation for immediate feedback and server-side validation for actual enforcement.
+
+## Demonstration payments
+
+If provider credentials are unavailable, use a clearly identified demonstration checkout.
+
+A demo checkout may simulate the workflow but must never charge real money, collect raw payment card information, or misrepresent a demo payment as a real verified transaction.
+
+Real payment support must use a payment provider's documented server-side workflow and webhook verification.
+
+---
+
+# 10. CUSTOMER ACCOUNTS AND ORDER EXPERIENCE
+
+Implement where supported:
+
+* Sign-in and sign-out.
+* Customer profile.
+* Saved addresses.
+* Order history.
+* Reorder.
+* Favorites.
+* Account settings.
+* Support access.
+
+Use the available authentication service if configured.
+
+Never store passwords or sensitive authentication secrets in local storage.
+
+Guest browsing should remain available.
+
+## Order tracking
+
+Support the statuses:
+
+1. Order placed.
+2. Payment pending or verified, as applicable.
+3. Accepted by kitchen.
+4. Preparing.
+5. Ready for pickup.
+6. Delivery assigned where applicable.
+7. Picked up.
+8. Out for delivery.
+9. Delivered.
+10. Cancelled or failed where applicable.
+
+Make status transitions consistent with the actual order state machine.
+
+Show the order timeline and meaningful updates.
+
+Never fabricate live GPS coordinates, driver locations, or provider-confirmed events.
+
+Keep refund state separate from fulfillment state.
+
+---
+
+# 11. KITCHEN DISPLAY SYSTEM
+
+Create a high-contrast, tablet-friendly Kitchen Display System.
+
+Operational columns:
+
+* New.
+* Accepted.
+* Preparing.
+* Ready.
+* Completed.
+
+Each order card includes:
+
+* Order number.
+* Received time.
+* Elapsed time.
+* Ordered items.
+* Quantities.
+* Modifiers.
+* Special instructions.
+* Preparation estimate.
+* Payment status.
+* Pickup or delivery method.
+
+Allow authorized kitchen staff to:
+
+* Accept or reject according to configured rules.
+* Start preparation.
+* Set an estimated completion time.
+* Mark an order ready.
+* Pause new orders.
+* Update kitchen availability.
+* Report unavailable products.
+* View overdue orders.
+
+Use real persisted data when the backend is configured.
+
+Use real-time subscriptions when available, or sensible polling as a fallback.
+
+Make every status change auditable.
+
+Provide visible or audible notifications where supported by the environment.
+
+Do not show unverified orders as paid.
+
+---
+
+# 12. BUSINESS OWNER DASHBOARD
+
+Create a premium business dashboard with the visual clarity of an elite operations product.
+
+## Overview metrics
+
+Display:
+
+* Orders today.
+* Gross order value.
+* Net sales according to a documented definition.
+* Average order value.
+* Order completion rate.
+* Cancellation rate.
+* Refunds.
+* Food cost percentage when enough data exists.
+* Estimated contribution.
+* Inventory alerts.
+* Top-selling dishes.
+* Sales by hour.
+* Sales by brand.
+* Sales by location.
+
+Never confuse gross order value, net sales, cash collected, and profit.
+
+Clearly label demonstration values.
+
+If cost data is incomplete, show "Cost data incomplete" rather than inventing a profit figure.
+
+## Order management
+
+Provide:
+
+* Search.
+* Date filters.
+* Status filters.
+* Payment filters.
+* Brand and location filters.
+* Order detail panel.
+* Status history.
+* Authorized cancellation workflows.
+* Authorized refund workflows.
+* Internal notes.
+* CSV exports where implemented.
+
+Use pagination for large datasets.
+
+## Menu administration
+
+Allow an authorized user to:
+
+* Create and edit products.
+* Assign categories.
+* Set prices.
+* Manage images.
+* Configure modifiers.
+* Change product availability.
+* Manage brands.
+* Manage locations.
+* Schedule menus.
+
+All mutations must be validated and persisted through the authorized backend when configured.
+
+---
+
+# 13. INVENTORY AND PROCUREMENT
+
+Create ingredient inventory management that supports:
+
+* Ingredient catalog.
+* Measurement units.
+* Current stock.
+* Minimum thresholds.
+* Purchase cost.
+* Stock movements.
+* Suppliers.
+* Batch identifiers when applicable.
+* Expiry information when applicable.
+* Waste records.
+* Stocktake adjustments.
+
+Support valid unit conversions between grams, kilograms, millilitres, litres, and pieces where appropriate.
+
+## Recipes
+
+A recipe defines ingredient quantities per serving.
+
+Example:
+
+A chicken rice bowl:
+
+* Rice: 200 g.
+* Chicken: 150 g.
+* Sauce: 30 ml.
+* Packaging: 1 unit.
+
+Treat this as fictional example data.
+
+Calculate theoretical ingredient consumption from order items and recipes.
+
+Distinguish theoretical usage from actual physical counts.
+
+Design safe, idempotent inventory movement processing so retries cannot deduct stock multiple times.
+
+Define the treatment of cancelled orders, returned stock, wastage, and refunds according to the configured business policy.
+
+## Procurement
+
+Support:
+
+* Supplier records.
+* Purchase orders.
+* Purchase order items.
+* Goods-received records.
+* Unit costs.
+* Stock replenishment.
+* Supplier purchase history.
+
+Show actionable low-stock warnings.
+
+---
+
+# 14. FINANCIAL INTELLIGENCE AND RECIPE COSTING
+
+This is a critical differentiator.
+
+For each menu item, calculate recipe cost from ingredient quantities and recorded ingredient costs.
+
+Where data exists, account for:
+
+* Recipe ingredients.
+* Packaging.
+* Discounts.
+* Payment processing fees.
+* External marketplace commission.
+* Delivery subsidies.
+* Configured variable costs.
+* Refunds.
+* Applicable revenue exclusions and taxes.
+
+Document the exact formula for each financial metric.
+
+A basic model:
+
+Contribution = Net revenue excluding applicable taxes − attributable variable costs.
+
+Do not label contribution as net profit.
+
+Keep fixed costs and other overhead separate unless deliberately included in a broader calculation.
+
+Provide:
+
+* Product cost estimates.
+* Estimated contribution by dish.
+* Contribution margin.
+* Food cost percentage.
+* Wastage cost.
+* Discount impact.
+* Channel comparison.
+* Price-change simulation.
+
+Display warnings when cost inputs are incomplete or outdated.
+
+Allow users to compare simulated scenarios before committing price changes.
+
+Do not fabricate financial performance.
+
+---
+
+# 15. DELIVERY OPERATIONS
+
+Build a configurable delivery layer that supports internal delivery staff or external providers.
+
+Track:
+
+* Assignment.
+* Pickup location.
+* Drop-off location.
+* Delivery status.
+* Expected delivery time.
+* Driver or partner assignment.
+* Delivery exceptions.
+* Reassignment.
+* Failed delivery.
+* Proof of delivery where appropriate.
+
+Support configurable delivery zones and PIN-code eligibility.
+
+Integrate external map and delivery services through provider adapters where suitable.
+
+If integrations are unavailable, provide manual assignment and explicit demonstration states.
+
+Do not show invented live tracking.
+
+---
+
+# 16. PAYMENTS, REFUNDS, AND RECONCILIATION
+
+Prepare provider adapters for Razorpay or another compatible payment provider.
+
+Support the architecture for:
+
+* Server-side payment creation.
+* Signature or webhook verification.
+* Idempotency.
+* Payment state transitions.
+* Failed payment recovery.
+* Refund requests.
+* Refund status history.
+* Provider settlement reconciliation.
+* Audit logging.
+
+Use sandbox credentials in testing.
+
+Never expose secret API keys in the browser.
+
+Never trust a client-side success callback as proof of payment.
+
+## Financial reconciliation
+
+Allow authorized users to compare:
+
+* Orders.
+* Payments.
+* Refunds.
+* Cash collections.
+* Payment provider settlements.
+* Transaction fees.
+* Net receipts.
+
+Highlight unresolved discrepancies for investigation.
+
+## Invoices and tax
+
+Prepare configurable invoice data and numbering.
+
+Keep tax rates, exemptions, and applicable invoice rules configurable. Validate legal and tax requirements for the actual business before production deployment.
+
+Do not present unverified compliance claims.
+
+---
+
+# 17. MARKETING, LOYALTY, AND CRM
+
+Build configurable marketing features.
+
+## Promotions
+
+Support:
+
+* Percentage discounts.
+* Fixed-amount discounts.
+* Minimum cart value.
+* First-order offers.
+* Product-specific coupons.
+* Brand-specific offers.
+* Start and expiry dates.
+* Usage limits.
+* Maximum discount.
+* Customer-specific eligibility rules where supported.
+
+Validate redemption limits on the server and protect against simultaneous over-redemption.
+
+## Loyalty
+
+Support:
+
+* Points for eligible transactions.
+* Reward redemption.
+* Customer balance.
+* Referral codes.
+* Configurable reward rules.
+* Expiry where appropriate.
+* Auditable points ledger.
+
+## Customer insights
+
+Provide appropriately authorized analytics for:
+
+* Repeat ordering.
+* Average order value.
+* Purchase frequency.
+* Product affinity.
+* New and returning customers.
+* Inactive customer segments.
+* Promotion redemption.
+
+Respect marketing consent and opt-outs.
+
+Build email, push, and messaging integrations as optional provider-backed modules.
+
+Do not send real messages when the required provider or authorization is not configured.
+
+---
+
+# 18. THE AI BUSINESS ASSISTANT
+
+Build an optional, AI-powered assistant inside the owner dashboard.
+
+The assistant should answer business questions using authorized data.
+
+Example questions:
+
+* Which products contributed the most estimated margin last week?
+* Which ingredients are likely to run out soon?
+* Which products have high revenue but weak contribution?
+* What were the main reasons for cancellations this month?
+* How did discount spending change?
+* Which time periods have the highest order volume?
+* What should the kitchen prepare more efficiently tomorrow?
+
+## AI capabilities
+
+1. Daily operating summary.
+2. Demand forecasts.
+3. Ingredient planning suggestions.
+4. Menu margin analysis.
+5. Price-change scenarios.
+6. Wastage insights.
+7. Promotion analysis.
+8. Operational anomaly detection.
+9. Natural-language reporting.
+10. Action recommendations.
+
+Recommendations should include:
+
+* Relevant evidence.
+* Time period.
+* Assumptions.
+* Expected benefit where measurable.
+* Risks.
+* Confidence or uncertainty.
+* Suggested next action.
+
+Do not fabricate historical data or forecasts.
+
+Distinguish recorded results from predictions.
+
+Do not expose information from another business or tenant.
+
+Do not send unnecessary customer information to an AI provider.
+
+Use a model-provider abstraction and server-side secret management where supported.
+
+If an AI credential is unavailable, the rest of the app must still work.
+
+Require appropriate human authorization before an AI system changes product prices, refunds payments, modifies stock, contacts customers, or performs other sensitive actions.
+
+---
+
+# 19. MULTI-BRAND AND MULTI-LOCATION SYSTEM
+
+Build a structure supporting:
+
+* Multiple businesses.
+* Multiple restaurant brands.
+* Multiple kitchens.
+* Different operating hours.
+* Location-specific prices.
+* Independent inventory.
+* Different staff teams.
+* Different delivery zones.
+* Different kitchen capacities.
+* Consolidated reports.
+
+One business might operate a biryani brand, a burger brand, and a healthy-meal brand from a shared location.
+
+Keep public storefront identity separate from operational kitchen identity.
+
+Implement correct location and business access boundaries.
+
+Ensure consolidated reports avoid double-counting shared transactions.
+
+For the MVP, provide the structure and a demonstrable implementation that does not require a large active marketplace.
+
+---
+
+# 20. DATABASE AND DATA INTEGRITY
+
+Use PostgreSQL through a suitable configured provider, such as Supabase, when available.
+
+Inspect the environment before choosing or changing data infrastructure.
+
+Design tables and relationships for:
+
+* Users.
+* Profiles.
+* Roles.
+* Permissions.
+* Businesses.
+* Business memberships.
+* Brands.
+* Locations.
+* Operating hours.
+* Addresses.
+* Delivery zones.
+* Categories.
+* Products.
+* Product images.
+* Variants.
+* Modifier groups.
+* Modifier options.
+* Product availability.
+* Orders.
+* Order items.
+* Order item modifiers.
+* Order events.
+* Payments.
+* Refunds.
+* Webhook events.
+* Coupons.
+* Coupon redemptions.
+* Loyalty accounts.
+* Loyalty ledger.
+* Ingredients.
+* Recipes.
+* Recipe ingredients.
+* Stock balances.
+* Stock movements.
+* Suppliers.
+* Purchase orders.
+* Purchase order items.
+* Wastage.
+* Delivery assignments.
+* Reviews where supported.
+* Support tickets.
+* Notifications.
+* Expenses.
+* Audit logs.
+* Subscription records when enabled.
+* AI insight records where appropriate.
+
+Requirements:
+
+* Stable identifiers.
+* Foreign keys.
+* Valid deletion policies.
+* Accurate numeric types for money.
+* Consistent timestamps.
+* Useful indexes.
+* Historical price preservation.
+* Database constraints.
+* Migrations.
+* Seed scripts.
+* Tenant-aware data access.
+* Auditable status history.
+* Idempotency records where necessary.
+
+Use row-level security when supported and meaningful, combined with server-side authorization.
+
+Never treat hidden navigation or disabled buttons as sufficient permission enforcement.
+
+Prevent duplicate orders, double charges, duplicate inventory deductions, and repeated loyalty awards.
+
+---
+
+# 21. SECURITY AND PRIVACY
+
+Implement appropriate controls for:
+
+* Authentication.
+* Server-side authorization.
+* Tenant isolation.
+* Input validation.
+* Rate limiting.
+* Session security.
+* Sensitive endpoint protection.
+* File upload validation.
+* Webhook verification.
+* Payment handling.
+* Audit records.
+* Secret management.
+* Error handling.
+* Logging.
+* Data retention.
+
+Keep secrets out of browser-accessible source code.
+
+Avoid unnecessarily collecting or logging personal information.
+
+Use safe, controlled file upload handling.
+
+Provide clear account and administrative permission boundaries.
+
+Identify production security reviews and legal configuration that remain outstanding.
+
+Do not claim that the product is fully secure or legally compliant merely because common controls have been implemented.
+
+---
+
+# 22. USER EXPERIENCE AND ACCESSIBILITY
+
+Follow recognized accessibility practices.
+
+Implement:
+
+* Semantic structure.
+* Keyboard navigation.
+* Visible focus indicators.
+* Accessible form labels.
+* Useful validation messages.
+* Appropriate alt text.
+* Sufficient contrast.
+* Reduced-motion support.
+* Touch-friendly controls.
+* Consistent button behavior.
+* Screen-reader-friendly status changes where appropriate.
+
+Make the application enjoyable for first-time customers and efficient for repeat customers.
+
+The interface should be calm, elegant, and intuitive.
+
+---
+
+# 23. TECHNICAL IMPLEMENTATION
+
+Inspect the existing Google AI Studio project and its available capabilities before choosing implementation details.
+
+A suitable default architecture may include:
+
+Frontend:
+
+* React.
+* TypeScript.
+* A consistent reusable component system.
+* Responsive styling.
+* Accessible form controls.
+* Clear route structure.
+
+Backend and data:
+
+* Server-side functions supported by the environment.
+* PostgreSQL with a configured provider where appropriate.
+* Secure authentication.
+* Schema migrations.
+* Validated business logic.
+* Secure persistence and audit history.
+
+Integrations:
+
+* Payment provider adapter.
+* Mapping provider adapter.
+* Email provider adapter.
+* Authorized messaging provider.
+* Optional AI provider.
+
+Deployment:
+
+* Supported application hosting.
+* Managed data infrastructure.
+* Environment-specific configuration.
+* Logging and monitoring.
+
+Use the stack that is actually supported in the selected Google AI Studio project.
+
+Do not assume an unavailable package, provider, database, secret, or API is configured.
+
+Keep the architecture modular without splitting a simple MVP into unnecessary microservices.
+
+Use a clear separation between:
+
+* UI components.
+* Domain logic.
+* Data access.
+* Authentication and authorization.
+* External service adapters.
+* Reporting calculations.
+* Background or asynchronous processing where available.
+
+Centralize pricing, payment verification, coupon validation, stock movement, and order transitions.
+
+Avoid duplicating critical business rules across unrelated components.
+
+---
+
+# 24. ROUTES AND PAGE STRUCTURE
+
+Create a coherent navigation structure and implement the corresponding routes.
+
+Customer:
+
+* `/`
+* `/discover`
+* `/search`
+* `/brands`
+* `/brands/[slug]`
+* `/products/[slug]`
+* `/cart`
+* `/checkout`
+* `/orders`
+* `/orders/[orderId]`
+* `/account`
+* `/addresses`
+* `/offers`
+* `/support`
+
+Kitchen:
+
+* `/kitchen`
+* `/kitchen/orders`
+* `/kitchen/orders/[orderId]`
+* `/kitchen/inventory`
+* `/kitchen/availability`
+
+Business administration:
+
+* `/admin`
+* `/admin/orders`
+* `/admin/menu`
+* `/admin/categories`
+* `/admin/brands`
+* `/admin/locations`
+* `/admin/inventory`
+* `/admin/recipes`
+* `/admin/suppliers`
+* `/admin/purchases`
+* `/admin/marketing`
+* `/admin/customers`
+* `/admin/staff`
+* `/admin/delivery`
+* `/admin/finances`
+* `/admin/analytics`
+* `/admin/settings`
+* `/admin/audit-logs`
+
+Platform administration:
+
+* `/platform`
+* `/platform/businesses`
+* `/platform/users`
+* `/platform/settings`
+
+Adapt route naming to the existing project if necessary.
+
+All important links must go somewhere meaningful.
+
+Protect private routes and enforce permissions on the server.
+
+---
+
+# 25. PERFORMANCE AND RESPONSIVE DESIGN
+
+Optimize the actual application for modern phones, tablets, and desktop browsers.
+
+Implement where supported:
+
+* Responsive images.
+* Image optimization.
+* Lazy loading where appropriate.
+* Pagination.
+* Efficient data fetching.
+* Appropriate caching.
+* Loading skeletons.
+* Useful error states.
+* Reduced unnecessary re-renders.
+* Efficient order updates.
+* Responsive charts.
+* Graceful network failure handling.
+
+Consider Progressive Web App installation capabilities when practical.
+
+Do not claim offline ordering, background synchronization, or push notification support unless implemented and tested.
+
+Avoid unnecessary dependencies that inflate bundle size.
+
+Do not allow decorative images or animations to make checkout slow.
+
+---
+
+# 26. DEMO DATA AND DEVELOPMENT EXPERIENCE
+
+The application must be attractive and demonstrable immediately.
+
+Create a coherent fictional Bengaluru food business with sample:
+
+* Brands.
+* Categories.
+* Products.
+* Images.
+* Prices.
+* Modifiers.
+* Ingredients.
+* Recipes.
+* Orders.
+* Stock levels.
+* Reporting figures.
+
+Example products:
+
+* Bengaluru Chicken Biryani.
+* Wild Mushroom Pasta.
+* Signature Smash Burger.
+* Paneer Tikka Bowl.
+* Avocado Grain Bowl.
+* Masala Dosa.
+* Loaded Peri-Peri Fries.
+* Dark Chocolate Mousse.
+* House-Blended Cold Coffee.
+
+Use realistic illustrative INR prices.
+
+Label all demo records clearly whenever customers, reviews, orders, payments, revenue, or operational results are displayed.
+
+Do not make demo records appear to be real customers, transactions, partnerships, or performance results.
+
+Provide documented demo setup and reset instructions.
+
+Keep demo behavior separated from production credentials and real integrations.
+
+---
+
+# 27. MONETIZATION AND BUSINESS MODEL
+
+Prepare the platform to support potential revenue streams:
+
+* Monthly software subscriptions.
+* Plans for independent kitchens.
+* Multi-location business plans.
+* Premium business intelligence.
+* Optional automation modules.
+* Optional marketplace commissions.
+* Enterprise plans.
+
+Do not assume the market will accept a particular price without validation.
+
+Create plan models and a comparison interface only where useful.
+
+Do not enable billing or charge businesses without appropriate provider configuration and explicit operating rules.
+
+Keep the core kitchen application usable in development without subscription billing.
+
+Document the proposed monetization roadmap separately from implemented revenue functionality.
+
+---
+
+# 28. TESTING: PROVE THE CORE PRODUCT WORKS
+
+Do not consider the app finished just because the homepage renders.
+
+Implement and run appropriate tests.
+
+## Unit tests
+
+Test:
+
+* Order pricing.
+* Coupon eligibility.
+* Order state transitions.
+* Permissions.
+* Recipe costing.
+* Stock calculations.
+* Refund calculations.
+* Loyalty transaction logic.
+
+## Integration tests
+
+Test:
+
+* Order creation.
+* Database persistence.
+* Duplicate requests.
+* Payment webhook verification.
+* Inventory movements.
+* Tenant boundaries.
+* Reporting calculations.
+* Authorization failures.
+
+## End-to-end workflow
+
+Test the following complete journey:
+
+1. Open the storefront.
+2. Browse a brand.
+3. Select a product.
+4. Configure required modifiers.
+5. Add it to the cart.
+6. Change quantity.
+7. Apply an eligible coupon.
+8. Choose a delivery address.
+9. Complete demonstration checkout or provider sandbox checkout.
+10. Verify order creation.
+11. Verify the order appears in the kitchen queue.
+12. Accept the order.
+13. Start preparation.
+14. Mark it ready.
+15. Complete a demonstration delivery or pickup.
+16. Verify customer order tracking.
+17. Verify the completed order in the admin dashboard.
+18. Verify expected inventory movements.
+19. Verify that reporting figures update consistently.
+
+Also test:
+
+* Missing authentication.
+* Invalid permissions.
+* Cross-tenant requests.
+* Invalid coupons.
+* Unavailable products.
+* Failed payments.
+* Duplicate checkout requests.
+* Repeated webhooks.
+* Cancellation behavior.
+* Refund status.
+* Inventory race conditions where applicable.
+* Missing credentials.
+* Empty-state behavior.
+
+Use mocks or provider sandbox environments.
+
+Never make real payments during automated tests.
+
+Run available lint, type-check, build, unit, integration, and end-to-end commands.
+
+Fix reproducible problems and record any remaining blockers honestly.
+
+---
+
+# 29. THE THREE-STAGE BUILD STRATEGY
+
+Do not spread implementation so thinly that everything becomes a superficial mockup.
+
+## STAGE ONE: THE BEAUTIFUL, WORKING MVP
+
+Complete:
+
+* Luxury customer homepage.
+* Product catalog.
+* Brand discovery.
+* Search and filters.
+* Product detail.
+* Modifier selection.
+* Cart.
+* Checkout validation.
+* Demonstration order creation.
+* Order tracking.
+* Kitchen order board.
+* Menu administration.
+* Basic inventory.
+* Basic recipe costing.
+* Owner dashboard.
+* Authentication and permissions appropriate to the configured environment.
+* Persistence where configured.
+* Demo seed data.
+* Mobile responsiveness.
+* Essential tests.
+
+The core ordering flow must work end to end.
+
+## STAGE TWO: REAL BUSINESS OPERATIONS
+
+Add and verify:
+
+* Live payment provider integration.
+* Proper webhook handling.
+* Enhanced stock management.
+* Procurement.
+* Refund processing.
+* Financial reconciliation.
+* Delivery provider integrations.
+* Customer promotions.
+* Loyalty.
+* Advanced reporting.
+* Multi-location management.
+* Authorized notifications.
+
+Where credentials are missing, implement the adapter and document the setup instead of pretending that the integration is operational.
+
+## STAGE THREE: AI AND SCALE
+
+Add:
+
+* AI business assistant.
+* Demand forecasting.
+* Advanced menu analytics.
+* Procurement recommendations.
+* Multi-brand optimization.
+* Subscription billing.
+* Enterprise reporting.
+* Advanced operational automation.
+* Sophisticated business intelligence.
+
+Keep the MVP functional while developing later stages.
+
+---
+
+# 30. REQUIRED EXECUTION SEQUENCE
+
+Follow this sequence in the actual development environment.
+
+## Step 1: Inspect
+
+Examine the current workspace, available capabilities, project code, dependencies, routes, data sources, configuration, and existing design.
+
+Do not assume the project is empty.
+
+## Step 2: Plan
+
+Create a short implementation plan covering:
+
+* Architecture.
+* Design system.
+* Data model.
+* Page hierarchy.
+* Critical workflows.
+* Security boundaries.
+* Test strategy.
+* Integration requirements.
+
+Save the plan in the project when possible.
+
+## Step 3: Establish the luxury design system
+
+Build typography tokens, color tokens, layout rules, reusable components, navigation, product imagery patterns, and interaction states.
+
+Make the homepage visually exceptional early.
+
+## Step 4: Build the core customer flow
+
+Implement catalog, product configuration, cart, checkout, demonstration order creation, and tracking.
+
+Ensure the flow actually functions.
+
+## Step 5: Build kitchen operations
+
+Connect kitchen order handling to the same underlying order data.
+
+Do not create unrelated customer and kitchen order records that cannot stay consistent.
+
+## Step 6: Build business management
+
+Implement menu management, inventory, recipe costing, and meaningful dashboard reporting.
+
+## Step 7: Connect and protect data
+
+Use the configured backend, secure data access, validation, permission checks, and migrations where supported.
+
+Provide a clearly labelled demo-data fallback where external configuration is unavailable.
+
+## Step 8: Run the application
+
+Start the preview or development server using the environment's supported workflow.
+
+## Step 9: Inspect and repair
+
+Check:
+
+* Console errors.
+* Broken images.
+* Misaligned components.
+* Mobile overflow.
+* Invalid states.
+* Dead links.
+* Cart errors.
+* Checkout errors.
+* Inconsistent calculations.
+* Permission violations.
+* Failed tests.
+
+Make actual code changes to solve these problems.
+
+## Step 10: Visual refinement
+
+Review each major page and improve typography, spacing, image selection, layout, and responsive behavior.
+
+Do not polish only the homepage and leave checkout or administration unfinished.
+
+## Step 11: Deployment preparation
+
+Create appropriate documentation for:
+
+* Setup.
+* Required environment variables.
+* Database migration.
+* Seed data.
+* Provider configuration.
+* Testing.
+* Deployment.
+* Operational limitations.
+
+Do not claim deployment succeeded unless the deployment actually succeeded.
+
+---
+
+# 31. VISUAL ACCEPTANCE TEST
+
+Before calling the design complete, evaluate it as a luxury design director.
+
+Ask:
+
+* Does the homepage feel genuinely premium within five seconds?
+* Is the food imagery beautiful and coherent?
+* Is the hero editorial rather than template-like?
+* Are the fonts sophisticated and readable?
+* Are spacing and alignment consistently excellent?
+* Does each section have a distinct purpose?
+* Are the product cards attractive without being repetitive?
+* Do the colors feel warm, luxurious, and restrained?
+* Does mobile feel intentionally designed?
+* Is checkout calm and effortless?
+* Are dashboard figures easy to understand?
+* Does the kitchen board remain practical during busy periods?
+* Are empty and error states thoughtfully designed?
+* Do any details look cheap, generic, inconsistent, or unfinished?
+
+If the visual quality is average, continue improving the code.
+
+Do not replace functional controls with decorative mockups while polishing the design.
+
+---
+
+# 32. FINAL DELIVERABLES
+
+Deliver actual project artifacts:
+
+1. Working application source.
+2. Reusable luxury design system.
+3. Responsive customer storefront.
+4. Product and cart experience.
+5. Checkout and order tracking.
+6. Kitchen display system.
+7. Business administration interface.
+8. Database schema and migrations where configured.
+9. Demo seed data.
+10. Authentication and permission controls appropriate to the configured services.
+11. Example environment configuration without real secrets.
+12. Automated tests.
+13. Setup documentation.
+14. Integration documentation.
+15. Deployment instructions.
+16. Feature checklist.
+17. Known limitations.
+18. Prioritized expansion roadmap.
+
+At the end, report:
+
+* What was implemented.
+* What actually works.
+* What was tested.
+* The test results.
+* Which integrations are active.
+* Which integrations need credentials.
+* How to run the project.
+* Known bugs or incomplete features.
+* The three highest-value remaining tasks.
+
+Never claim a feature works unless its implementation has been verified to the extent possible in the current environment.
+
+---
+
+# 33. THE FINAL COMMAND
+
+You are building the foundation of a real luxury food-tech business.
+
+Think like a founder, design like an exceptional creative director, engineer like a principal architect, and validate like an operator accountable for real orders and real costs.
+
+Create an application with a distinctive identity, exceptional food imagery, refined typography, beautiful spacing, responsive layouts, and meaningful interactions.
+
+But ensure that the beauty is backed by functional ordering, consistent data, reliable operations, and honest financial reporting.
+
+Do not stop at a concept, a written plan, a static design, or an explanation of what could be built.
+
+Do not repeatedly ask me to make minor design decisions. Make reasonable choices, implement them, and document important assumptions.
+
+When a feature is too large to complete safely in one iteration, build the most valuable working version and record the rest as a clearly defined next step.
+
+**BEGIN NOW. Inspect the existing Google AI Studio project, establish the luxury design system, build the functional MVP, launch the preview, test the critical workflows, and refine the application until the actual result is beautiful, coherent, responsive, and functional.**
